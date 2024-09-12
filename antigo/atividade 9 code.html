@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Exercicio 9: apresenta o quadrado de um numero ja informado internamente e, em seguida, em uma caixa de texto, permite que voce informe
+        um numero para saber seu valor ao cibo.</title>
+
+        <script>
+            function quadrado(x)
+            {
+                document.write(x*x);
+            }
+            function cubo(x)
+            {
+                return x*x*x
+            }
+
+            y=5;
+            document.write("O quadrado de "+y+"e igual a");
+            quadrado(y);
+        </script>
+</head>
+<body>
+    <form>
+        <br>informe um numero para saber seu valor ao cubo e, em seguida, pressione a tecla
+        TAB ou de um clique fora da caixa de texto.<br>
+        <input type="text" name="aocubo" value="" onBlur=""alert('O cubo de ' +this.value+ 'e' +cubo(this.value))">
+        
+
+
+    </form>
+    
+</body>
+</html>

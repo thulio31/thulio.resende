@@ -1,0 +1,180 @@
+/*
+-- Estilo Css - Website da Empresa
+*/
+
+/*
+--Padroes e Reset
+*/
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+
+ *{
+	 margin: 0;
+	 padding:0;
+ }
+ ul{
+	 list-style-type:none;
+ }
+ img, fildset{
+	 border:0;
+ }
+
+/*
+--tipografia e cores
+*/
+
+body{
+	color:black; 
+	background:#FFF url(../imagens/imagens.jpg);
+}
+body, input, select, textarea{
+	font-family:"Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+
+a:link{
+	color:blue;
+}
+
+a:visited{
+	color:gray;
+}
+
+a:hover{
+	color:gray;
+	text-decoration: none;
+}
+
+a:focus{
+	outline: 1px dotted #F00;
+}
+
+a:active{
+	color: #F00;
+}
+
+p{
+	font-size:16px;
+	margin-bottom: 1.5em;
+	line-height: 1.4em;
+}
+
+#conteudo-principal h1{
+	font-size:36px;
+	margin-bottom: 0.5m;
+}
+
+#conteudo-principal h2, 
+#conteudo-secundario h1 {
+	font-size: 24px;
+	margin-bottom: o.5em;
+}
+	
+#conteudo-secundario p{
+	font-size:14px;
+}
+
+#conteudo-principal ul,
+#conteudo-principal o1 {
+	font-size:16px;
+	margin-left: 1,5em;
+	margin-bottom:1.5em;
+}
+
+/*
+--Estrutura
+*/
+#cabecalho, #conteudo; #rodape {
+	width:960px;
+	margin: 0 auto;
+}
+
+
+#foto-principal{
+	height:150px;
+	background: #b6b6b6 url(../imagens/fund.jpeg) no-repeat center top;
+	background-size: 1250px 500px
+}
+
+
+#rodape-fora {
+	background: #0a6aff;
+}
+
+#cabecalho {
+	position: relative;
+}
+
+#logo {
+	padding: 10px 0;
+	display: block 0;
+	float: left;
+}
+
+#logo img{
+	display:block;
+}
+#menu-principal {
+	position: absolute;
+	top: 40px;
+	right: 0;
+}
+
+#menu-principal li {
+	display:inline;
+}
+
+#menu-principal a {
+	display: block;
+	float: left;
+	font-size: 27px;
+	text-decoration: none;
+	color: #333333;
+	margin-left: 32px;
+}
+
+#menu-principal a:hover, #menu-principal a.ativo {
+	color: #of599f;
+}
+
+#menu-principal a.ativo {
+	font-weight: bold;
+}
+ 
+
+/*
+--Estilos especificos de seção
+*/
+
+#bd-empresa #foto-principal {
+	height: 110px;
+}
+
+#bd-empresa .legenda {
+	margin:0;
+	color:#fff;
+	background:#808080;
+	font-style:italic;
+	text-align:center;
+	padding: 0.3em 0.6em;
+}
+/*
+--Formularios
+*/
+
+/*
+--Tabelas
+*/
+
+/*
+--Classes de uso geral
+*/
+
+.grupo::before, .grupo::after {
+	content: " ";
+	display: table;
+}
+
+.grupo::after{
+	clear:both;
+}

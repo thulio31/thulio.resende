@@ -1,0 +1,88 @@
+
+
+html, body{
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 450px; 
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    padding: auto;
+    margin-left:auto;
+    margin-top:120px;
+   
+}
+
+/*boxs com os conteudos */
+.boxs{
+width: 300px;
+height: 400px;
+background: #ffffff;
+margin-left: 0px;
+border: solid 1.8px #aaaa; 
+box-shadow: 7px 10px 17px #888787aa;
+border-radius: 15px;
+margin: 15px;
+}
+
+    button{
+        background-color: #a80d0d;
+        border: none;
+        color: #fff;
+        padding: 13px 30px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 10px;
+        text-align: center;
+        margin-top:60%;   
+        display: inline-block;
+          }
+
+button :hover{
+    background-color: #ff1d1d;
+    transition: 0.5s;
+    scale: 50%;
+}
+
+.rodapelink{ 
+    margin-left:20%;
+    margin-top:-60px;
+}
+.rodapelink1{
+    margin-left:25%;
+}
+
+button:hover{
+    background-color: #1e64fc;
+    border: 2px solid black;
+}
+
+.conteudo_box{
+    padding: 14px;
+    text-align: justify;
+}
+
+img{
+    margin-top: 10px;
+    margin-left: 10px;   
+}
+
+strong{
+    font-size: 17px;
+}
+
+.nome_clube{
+text-align: center;
+position: relative;
+top: -40px;
+margin-left:100px;
+left:-40px;
+}
+

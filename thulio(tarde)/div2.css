@@ -1,0 +1,16 @@
+#para1 { 
+	text-align:center;
+	color:green;
+}
+
+div {background-color:white;
+	border:2px solid black;
+	max-width:500px;
+	max-height:500px;
+	font-family:arial;
+	padding: 8px;
+}
+
+h4 {text-align:justify;
+letter-spacing:3px;
+}

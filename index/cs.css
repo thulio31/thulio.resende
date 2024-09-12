@@ -1,0 +1,64 @@
+
+
+#tabela{
+	margin-top: 200px;
+	align-items: center;
+}
+
+table{
+    width: 100vw;
+    text-align: center;
+}
+
+.brasileirao{
+    border: 1px solid #d4c9c9;
+    border-top: none;
+    border-bottom:1px solid #d4c9c9;
+    width: 40vw;
+    margin-left: 30%;
+    font-size: 0.7em;
+	background-color: #fff;
+}
+.brasileirao th{
+    border-top:  1px solid #e0e0e0;
+    font-weight: 100;
+    color: #70758d;
+    padding: 4px;
+    height: 35px;
+}
+
+.brasileirao td{
+    border-top:  1px solid #e0e0e0;
+    font-weight: 100;
+    color: black;
+    padding: 4px;
+    height: 35px;
+    font-size: 1.2em;
+}
+ .brasileirao img{
+    width: 25px;
+ }
+
+ .tabela-colunas-bordas{
+    border-top: none !important;
+ }
+
+ .titulo-clube{
+    width: 50%;
+    text-align: left;
+ }
+
+.titulo-ultimas-tres{
+	width: 20%;
+}
+
+.titulo-ultimas-tres img{
+	width: 50%;
+	display:flex;
+}
+
+.temp{
+text-align: center;
+
+}
+

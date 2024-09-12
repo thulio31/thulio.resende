@@ -1,0 +1,160 @@
+#cabecalho {
+	width: 100%;
+	margin: 0 auto;
+
+}
+#menu-principal {
+	top: 5px;
+	
+}
+#menu-principal li {
+	display:inline;
+	font-size: 20px ;
+}
+
+#menu-principal a {
+
+	display: block;
+	float: left;
+	font-size: 11px;
+	text-decoration: none;
+	color: #000000;
+	margin-left: 7px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+li{
+	padding-right: 20px;
+}
+
+#menu-principal a:hover, #menu-principal a.ativo {
+	color: #0d27b6;
+}
+
+#menu-principal a.ativo {
+	font-weight:  bold;
+}
+header {
+	box-shadow: 0px 0px 20px rgba(27, 8, 197, 0.815);
+	background: rgb(255, 255, 255);
+	
+	width: 100%;
+	top: 3px;
+   }
+   
+   header, nav ul {
+	display: flex;
+	justify-content: space-between;
+	padding: 0rem;
+   }
+   
+   nav ul li {
+	margin-left: 1rem;
+   }
+   #logo {
+	padding: 0px 0;
+	display: block 0;
+	float: left;
+}
+
+#logo img{
+	display:block;
+}
+
+#titulo{
+font-size: 23px;
+display: block;
+float: left;
+margin-left: 7px;
+padding-top: 10px;
+text-align: center;
+}
+
+.strong {
+color:rgba(11, 65, 182, 0.788);
+}
+
+#rodape footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+	position: static;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#tabela{
+	margin-top: 200px;
+	align-items: center;
+}
+
+table{
+    width: 100vw;
+    text-align: center;
+}
+
+.brasileirao{
+    border: 1px solid #d4c9c9;
+    border-top: none;
+    border-bottom:1px solid #d4c9c9;
+    width: 40vw;
+    margin-left: 30%;
+    font-size: 0.7em;
+}
+.brasileirao th{
+    border-top:  1px solid #e0e0e0;
+    font-weight: 100;
+    color: #70758d;
+    padding: 4px;
+    height: 35px;
+}
+
+.brasileirao td{
+    border-top:  1px solid #e0e0e0;
+    font-weight: 100;
+    color: black;
+    padding: 4px;
+    height: 35px;
+    font-size: 1.2em;
+}
+ .brasileirao img{
+    width: 25px;
+ }
+
+ .tabela-colunas-bordas{
+    border-top: none !important;
+ }
+
+ .titulo-clube{
+    width: 50%;
+    text-align: left;
+ }
+
+.titulo-ultimas-tres{
+	width: 20%;
+}
+
+.titulo-ultimas-tres img{
+	width: 27%;
+}
+
+.temp{
+text-align: center;
+
+}
+

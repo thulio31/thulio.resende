@@ -1,0 +1,7 @@
+.fundo-imagem {
+	background-color:#FFC;
+	background-image:url (error.png);
+	background-repeat: no-repeat;
+	background-position:10px 50%;
+	padding: 1em 1em 1em 2.5em;
+}

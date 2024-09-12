@@ -1,0 +1,109 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta charset+"UTf-8"/>
+<title>formulario</title>
+</head>
+<body>
+<!-- Conteudo -->
+<form>
+<input type='text' placeholder='digite seu nome'/> 
+<button type='button'>Enviar</button>
+</form>
+<br>
+<br>
+
+<form>
+<input type="button" value="Clique Aqui" onclick="msg()">
+</form>
+
+<script>
+function msg() {
+alert("Voce clicou no botao!");
+}
+</script>
+<br>
+<br>
+<form>
+<input type="checkbox" name="veiculo1 value="bicicleta"> eu tenho uma bicicleta<br>
+<input type="checkbox" name="veiculo2 value="carro"> eu tenho um carro<br>
+<input type="checkbox" name="veiculo3 value="moto"> eu tenho uma moto<br>
+<input type="checkbox" name="veiculo1 value="aviao"> eu tenho um aviao<br>
+<input type="checkbox" name="veiculo1 value="caminhao"> eu tenho um caminhao<br>
+<br><br>
+<form>
+selecione sua cor preferida: <input type="color" name="favcor" Value="#0000ff">
+</form>
+<br><br>
+<form>
+	data de nascimento: <input type ="date" name="nascimento">
+</form>
+<br><br>
+<form>
+	E-mail: <input type="email" name="e-mail" placeholder="Digite seu email aqui">
+</form>
+<br><br>
+<form>
+	<input type="file" name="arquivo">
+</form>
+<br><br><br>
+
+<!-- para permitir seleção de multiplos arquivos: -->
+<form>
+	<input type="file" name="arquivos" multiple>
+	</form>
+<br><br>
+
+<form>
+	Mes e ano: <input type="month" name="mesano">
+
+</form>
+
+<br><br>
+
+<form>
+quantidade (entre 1 e 5): <input type="number" name="quantidade" min="1" max="5">
+
+</form>
+
+<br><br>
+
+<input type="password" name="senha" placeholder="digite sua senha">
+
+</form>
+<br><br>
+
+<form>
+<p>Qual sua idade?</p>
+<input type="radio" name="idade" value="18_22">18 22<br>
+<input type="radio" name="idade" value="23_30">23 a 30 <br>
+<input type="radio" name="idade" value="mais31">acima de 31<br>
+
+</form>
+
+<br><br>
+
+<form>
+Defina seu nivel de satisfacao<br>
+Pouco satisfatorio
+<input type="range" name="satisfação" min="0" max="10">
+Muito satisfatorio
+
+</form>
+<br> <br>
+
+<form>
+	<input type="submit" value="Enviar formulario">
+	
+</form>
+<br><br>
+
+<form>
+	<textarea></textarea>
+	
+	<textarea>Area de texto com um texto inicial dentro</textarea>
+	
+</form>
+
+</body>
+</html>

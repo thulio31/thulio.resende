@@ -1,0 +1,160 @@
+/*
+-- Estilo Css - Website da Empresa
+*/
+
+/*
+--Padroes e Reset
+*/
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+		 *{
+			margin: 0;
+			padding: 0;
+	    	}
+ul { 
+list-style-type: none;
+
+}
+img, fildset {
+	border: 0;
+}
+
+/*
+--tipografia e cores
+*/
+
+body{
+	color:black; 
+}
+body, input, select, textarea{
+	font-family:"Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+
+a:link{
+	color:blue;
+}
+
+a:visited{
+	color:gray;
+}
+
+a:hover{
+	color:gray;
+	text-decoration: none;
+}
+
+a:focus{
+	outline: 1px dotted #F00;
+}
+
+a:active{
+	color: #F00;
+}
+
+p{
+	font-size:16px;
+	margin-bottom: 1.5em;
+	line-height: 1.4em;
+}
+
+#conteudo-principal h1{
+	font-size:36px;
+	margin-bottom: 0.5m;
+}
+
+#conteudo-principal h2, 
+#conteudo-secundario h1 {
+	font-size: 24px;
+	margin-bottom: o.5em;
+}
+	
+#conteudo-secundario p{
+	font-size:14px;
+	width:280px;
+}
+
+#conteudo-principal ul,
+#conteudo-principal o1 {
+	font-size:16px;
+	margin-left: 1.5em;
+	margin-bottom:1.5em;
+}
+
+#conteudo-principal u1{
+	list-style-type: square;
+}
+
+#conteudo-principal l1{
+	margin-bottom: 0.3em;
+}
+/*
+--Estrutura
+*/
+
+#cabecalho, #conteudo, #rodape {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#foto-principal{
+	height:200px;
+	background: #b6b6b6;
+	background-size:700px 200px;
+}
+
+#conteudo {
+	margin: 30px auto;
+}
+
+#conteudo-principal {
+	float: left;
+	width: 620px;
+}
+
+#conteudo-secundario{
+	width: 280px;
+	float: right;
+}
+
+
+#conteudo-secundario img {
+	display: block;
+}
+
+/*
+--Estilos especificos de seção
+*/
+
+#bd-empresa #foto-principal {
+	height: 110px;
+}
+
+#bd-empresa .legenda {
+	margin: 0;
+	color: #FFF;
+	background: #808080;
+	font-size: italic;
+	text-align: center;
+	padding: 0.3em 0.6em;
+}
+
+/*
+--Formularios
+*/
+
+/*
+--Tabelas
+*/
+
+/*
+--Classes de uso geral
+*/
+.grupo::before, .grupo::after{
+	content:" ";
+	display:table;
+}
+
+.grupo::after {
+	clear:both;
+}
