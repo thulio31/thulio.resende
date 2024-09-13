@@ -25,13 +25,6 @@ namespace Aluno._02Repository
         public void Adicionar(Turma turma)
         {
             using var connection = new SQLiteConnection(_connectionString);// conexao
-            string comandInsert = @"INSERT into Turmas (NOME, ALUNOS, VAGAS, CARGAHORARIA, CODIGOTURMA, STATUS) 
-                                                        values ( @NOME, @ALUNOS, @VAGAS, @CARGAHORARIA, @CODIGOTURMA, @STATUS)";
-            connection.Execute(comandInsert, turma);
-        }
-        public void AdicionarContrib(Turma turma)
-        {
-            using var connection = new SQLiteConnection(_connectionString);// conexao
             connection.Insert<Turma>(turma);
         }
         public List<Turma> ListarTurmas()

@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Aluno._03Entidades
 {
+    [Table("Alunos")]
     public class Alunos
     {
         //id do aluno
